@@ -1,0 +1,25 @@
+.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.filter div{
+    display: flex;
+    flex-direction: row;
+}
+
+.filter div select{
+    height: 20px;
+    align-self: center;
+}
+
+@media(max-width:768px){
+    .filter div{
+        flex-direction: column;
+    }
+
+    .filter div p{
+        font-size: 17px;
+    }
+}
